@@ -11,12 +11,12 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
-    <form action="http://example.com/process-user.php" method="POST">
-      <input type="text" name="fullname">
-      <input type="text" name="email">
-      <input type="text" name="phone">
-      <input type="text" name="message">
-      <input type="submit" value="submit">
+    <form>
+      <input id="fullname" type="text" name="fullname">
+      <input id="email" type="text" name="email">
+      <input id="phone" type="text" name="phone">
+      <input id="fullname" type="text" name="message">
+      <input id="fullname" type="submit" value="submit">
 </form>
 
 
@@ -45,7 +45,7 @@
       <label for="message">Message</label>
       <!-- Add a textarea tag with the id and name attributes set to 'message' -->
       <!-- Include the place holder text "Enter Message" -->
-      <textarea name="message"></textarea>
+      <textarea id="message" name="message" placeholder="message"></textarea>
       <input type="text" name="message" placeholder="Enter Message">
 
 
